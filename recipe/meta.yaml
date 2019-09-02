@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: generic
-  number: 0
+  number: 1
   script:
     - gem install -N -l -V --norc --ignore-dependencies {{ name }}-{{ version }}.gem
     - gem unpack {{ name }}-{{ version }}.gem
@@ -22,7 +22,6 @@ requirements:
     - ruby
   run:
     - ruby
-    - rb-jekyll >=3.3,<4
 
 test:
   commands:
