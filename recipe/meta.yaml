@@ -1,5 +1,5 @@
 {% set name = "jekyll-swiss" %}
-{% set version = "0.4.0" %}
+{% set version = "1.0.0" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 15d91256f0eadd5269951ee1c230234da730ccdeca3bf20d12f3081d80309198
+  sha256: c299a855dca881fe868f21545c5489be50ddfbc0d54a80e8dbeb5a2ddc4888a3
 
 build:
   noarch: generic
