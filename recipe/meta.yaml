@@ -22,7 +22,6 @@ requirements:
     - ruby
   run:
     - ruby
-    - rb-jekyll >=3.3,<4
 
 test:
   commands:
